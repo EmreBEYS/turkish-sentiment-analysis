@@ -52,4 +52,3 @@ Ana ölçüt macro-F1’dır. Accuracy, weighted-F1, sınıf bazlı precision/re
 
 Ayrıntılar: [Sprint yol haritası](docs/SPRINTS.md) ve [hata analizi protokolü](docs/ERROR_ANALYSIS.md).
 
-
