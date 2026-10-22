@@ -1,0 +1,126 @@
+{
+  "dataset": "winvoker/turkish-sentiment-analysis-dataset",
+  "license": "CC BY-SA 4.0",
+  "seed": 42,
+  "cleaning": {
+    "input_rows": 489644,
+    "same_label_duplicate_rows_removed": 2044,
+    "conflicting_texts_removed": 97,
+    "conflicting_rows_removed": 285,
+    "clean_rows": 487385
+  },
+  "clean_data": {
+    "rows": 487385,
+    "labels": {
+      "negative": 56077,
+      "neutral": 170691,
+      "positive": 260617
+    },
+    "sources": {
+      "HUMIR": 64344,
+      "magaza_yorumlari": 8197,
+      "random": 503,
+      "tweet-pn": 11011,
+      "urun_yorumlari": 233142,
+      "wiki": 170188
+    },
+    "word_length": {
+      "min": 1,
+      "median": 12,
+      "p95": 56,
+      "max": 2724
+    },
+    "character_length": {
+      "min": 1,
+      "median": 82,
+      "p95": 400,
+      "max": 16709
+    }
+  },
+  "splits": {
+    "train": {
+      "rows": 389904,
+      "labels": {
+        "negative": 44860,
+        "neutral": 136552,
+        "positive": 208492
+      },
+      "sources": {
+        "HUMIR": 51474,
+        "magaza_yorumlari": 6557,
+        "random": 402,
+        "tweet-pn": 8808,
+        "urun_yorumlari": 186513,
+        "wiki": 136150
+      },
+      "word_length": {
+        "min": 1,
+        "median": 12,
+        "p95": 56,
+        "max": 2724
+      },
+      "character_length": {
+        "min": 1,
+        "median": 82,
+        "p95": 401,
+        "max": 16709
+      }
+    },
+    "validation": {
+      "rows": 48733,
+      "labels": {
+        "negative": 5606,
+        "neutral": 17068,
+        "positive": 26059
+      },
+      "sources": {
+        "HUMIR": 6433,
+        "magaza_yorumlari": 819,
+        "random": 50,
+        "tweet-pn": 1100,
+        "urun_yorumlari": 23313,
+        "wiki": 17018
+      },
+      "word_length": {
+        "min": 1,
+        "median": 12,
+        "p95": 56,
+        "max": 1134
+      },
+      "character_length": {
+        "min": 1,
+        "median": 82,
+        "p95": 400,
+        "max": 9071
+      }
+    },
+    "test": {
+      "rows": 48748,
+      "labels": {
+        "negative": 5611,
+        "neutral": 17071,
+        "positive": 26066
+      },
+      "sources": {
+        "HUMIR": 6437,
+        "magaza_yorumlari": 821,
+        "random": 51,
+        "tweet-pn": 1103,
+        "urun_yorumlari": 23316,
+        "wiki": 17020
+      },
+      "word_length": {
+        "min": 1,
+        "median": 12,
+        "p95": 55,
+        "max": 1253
+      },
+      "character_length": {
+        "min": 1,
+        "median": 82,
+        "p95": 399,
+        "max": 9780
+      }
+    }
+  }
+}

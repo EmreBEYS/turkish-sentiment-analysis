@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Third-party text data and derived splits are reproducible but not versioned.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained artifacts
+models/
+artifacts/
+
